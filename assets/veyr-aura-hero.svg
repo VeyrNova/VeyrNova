@@ -1,0 +1,55 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050816"/>
+    <stop offset="0.55" stop-color="#0A1022"/>
+    <stop offset="1" stop-color="#12091F"/>
+  </linearGradient>
+  <linearGradient id="line" x1="410" y1="100" x2="1160" y2="430" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset="0.48" stop-color="#3B82F6"/>
+    <stop offset="1" stop-color="#A855F7"/>
+  </linearGradient>
+  <linearGradient id="vgrad" x1="220" y1="140" x2="470" y2="390" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#5EEBFF"/>
+    <stop offset="0.45" stop-color="#338DFF"/>
+    <stop offset="1" stop-color="#A855F7"/>
+  </linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="14" result="blur"/>
+    <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.83 0 0 0 0 0.93 0 0 0 0.45 0"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(1220 220) rotate(90) scale(250 330)" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#4F46E5" stop-opacity=".22"/>
+    <stop offset=".45" stop-color="#7C3AED" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1600" height="520" rx="34" fill="url(#bg)"/>
+<circle cx="1210" cy="220" r="300" fill="url(#orb)"/>
+<path d="M0 430C350 350 520 525 890 435C1190 362 1300 315 1600 362" stroke="url(#line)" stroke-opacity=".17" stroke-width="2"/>
+<path d="M0 462C370 388 590 545 930 464C1240 390 1380 360 1600 394" stroke="url(#line)" stroke-opacity=".09" stroke-width="1"/>
+
+<g transform="translate(150 120)" filter="url(#glow)">
+  <path d="M0 0H66L140 144L214 0H280L140 270L0 0Z" fill="url(#vgrad)"/>
+  <path d="M66 0L140 144L104 214L0 0H66Z" fill="#46E6F4" fill-opacity=".35"/>
+  <path d="M214 0L140 144L176 214L280 0H214Z" fill="#A855F7" fill-opacity=".28"/>
+</g>
+
+<text x="520" y="184" fill="#F8FAFC" font-size="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800" letter-spacing="8">VEYR</text>
+<text x="522" y="238" fill="#9FB0C8" font-size="26" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="600" letter-spacing="4">CREATOR OF AURA</text>
+<rect x="522" y="272" width="530" height="2" rx="1" fill="url(#line)" opacity=".7"/>
+<text x="522" y="325" fill="#D8E2F1" font-size="28" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="500">AI • Voice • Memory • Tools • Automation</text>
+<text x="522" y="371" fill="#7F8EA8" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">Building a local-first intelligent desktop environment.</text>
+
+<g transform="translate(522 408)">
+  <rect width="156" height="46" rx="23" fill="#0B1529" stroke="#1D3A58"/>
+  <circle cx="24" cy="23" r="6" fill="#22D3EE"/>
+  <text x="42" y="30" fill="#C8F7FF" font-size="17" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">AURA</text>
+  <rect x="174" width="205" height="46" rx="23" fill="#0B1529" stroke="#2B265C"/>
+  <circle cx="198" cy="23" r="6" fill="#8B5CF6"/>
+  <text x="216" y="30" fill="#E9DDFF" font-size="17" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">ACTIVE BUILD</text>
+</g>
+</svg>

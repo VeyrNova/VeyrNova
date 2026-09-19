@@ -1,353 +1,157 @@
 <div align="center">
 
-VEYR
-
-Creator of AURA
-
-Building intelligent software at the intersection of AI, voice, memory and human-computer interaction.
+<img src="./assets/veyr-aura-hero.svg" width="100%" alt="Veyr — Creator of AURA" />
 
 <br>
 
+[![AURA](https://img.shields.io/badge/AURA-Active_Development-7C3AED?style=flat-square)](#aura)
+[![Local First](https://img.shields.io/badge/Architecture-Local--First-0891B2?style=flat-square)](#aura)
+[![GitHub](https://img.shields.io/badge/GitHub-@VeyrNova-181717?style=flat-square&logo=github)](https://github.com/VeyrNova)
+[![YouTube](https://img.shields.io/badge/YouTube-@VeyrNova-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@VeyrNova)
 
-
-
+</div>
 
 <br>
 
+## About
 
+I'm **Veyr**, an independent creator building **AURA** — a local-first AI desktop environment focused on natural interaction, contextual memory, intelligent tool routing and modular AI orchestration.
 
+AURA is not designed as another chat window. The goal is a desktop assistant that can understand intent, keep useful context, select the right intelligence or tool, and act through one coherent interface.
 
-</div>
+<br>
 
-About Me
+<a id="aura"></a>
 
-I'm Veyr, an independent creator currently developing AURA, an experimental AI desktop assistant designed to make interaction with artificial intelligence feel more natural, contextual and deeply integrated into the computer.
+## AURA
 
-My work focuses on combining:
+<table>
+<tr>
+<td width="25%" align="center"><b>🧠 Intelligence</b><br><sub>Local + cloud model orchestration</sub></td>
+<td width="25%" align="center"><b>🎙 Voice</b><br><sub>Natural speech input and output</sub></td>
+<td width="25%" align="center"><b>💾 Memory</b><br><sub>Persistent contextual recall</sub></td>
+<td width="25%" align="center"><b>🛠 Tools</b><br><sub>Files, web, system and automation</sub></td>
+</tr>
+</table>
 
-Artificial intelligence
+> **One interface. Multiple intelligences. One assistant.**
 
-Local and cloud AI models
+<br>
 
-Voice interaction
+## Current Focus
 
-Long-term contextual memory
+| Area | Status | Direction |
+|---|:---:|---|
+| AI orchestration | ● Active | Model and provider routing |
+| Voice interaction | ● Active | Speech input, output and live routing |
+| Contextual memory | ● Active | Relevant long-term project context |
+| Adaptive interface | ● Active | Task-specific UI and reactive states |
+| Desktop automation | ◐ Building | Reliable real-world actions |
+| Developer Fabric | ◐ Building | Multi-agent development orchestration |
+| Public Alpha | ○ Planned | Controlled external testing |
 
-Intelligent tool routing
+<br>
 
-Desktop automation
+## Architecture
 
-Adaptive user interfaces
+<img src="./assets/aura-architecture.svg" width="100%" alt="AURA architecture" />
 
-Developer automation
+<br>
 
-My goal is not to build another chatbot.
-
-I'm building an intelligent desktop environment.
-
-AURA
+## Tech
 
 <div align="center">
 
-Adaptive AI. Contextual Tools. Natural Interaction.
-
-One interface. Multiple intelligences. One assistant.
-
-</div>
-
-AURA is a next-generation AI desktop assistant currently under active development.
-
-Instead of relying on a single AI model, AURA is being designed as a modular intelligence platform capable of selecting the most appropriate model, tool or local capability depending on the user's request.
-
-User
- │
- ▼
-AURA Interface
- │
- ▼
-Intelligence Router
- │
- ├── Local AI
- ├── Cloud AI
- ├── Memory
- ├── Voice
- ├── Tools
- ├── Web
- ├── System
- └── Developer Agents
-
-The objective is to create an assistant capable of understanding context, interacting naturally and executing real actions through a unified desktop experience.
-
-Currently Building
-
-Component
-
-Status
-
-🧠 AI orchestration
-
-Active
-
-🎙️ Voice interaction
-
-Active
-
-💾 Contextual memory
-
-Active
-
-🛠️ Intelligent tool routing
-
-Active
-
-🖥️ Adaptive desktop interface
-
-Active
-
-🌐 Web capabilities
-
-Active
-
-🤖 Local AI integration
-
-Active
-
-⚡ Desktop automation
-
-In development
-
-👨‍💻 Developer Fabric
-
-In development
-
-🧩 Autonomous workflows
-
-Research / Development
-
-🌍 Public Alpha
-
-Planned
-
-AURA Architecture
-
-AURA is designed around a modular architecture.
-
-flowchart TD
-
-    USER[User]
-
-    UI[AURA Interface]
-    ROUTER[Intelligence Router]
-
-    MEMORY[Contextual Memory]
-    VOICE[Voice Engine]
-
-    LOCAL[Local AI]
-    CLOUD[Cloud AI]
-
-    TOOLS[Tool Layer]
-
-    WEB[Web]
-    SYSTEM[Desktop]
-    FILES[Files]
-    DEV[Developer Agents]
-
-    USER --> UI
-    UI --> ROUTER
-
-    ROUTER --> MEMORY
-    ROUTER --> VOICE
-
-    ROUTER --> LOCAL
-    ROUTER --> CLOUD
-
-    ROUTER --> TOOLS
-
-    TOOLS --> WEB
-    TOOLS --> SYSTEM
-    TOOLS --> FILES
-    TOOLS --> DEV
-
-    ROUTER --> UI
-
-AURA's architecture is intended to remain modular so individual models, providers and tools can evolve independently.
-
-Core Principles
-
-🧠 Context
-
-AURA should understand more than the current prompt.
-
-Contextual memory allows conversations, projects and previous decisions to remain useful over time.
-
-🎙️ Natural Interaction
-
-Voice should feel like a native interaction method rather than an additional feature.
-
-AURA is being designed around fast conversational interaction using speech recognition, AI reasoning and text-to-speech.
-
-🔒 Local First
-
-Whenever possible, AURA is designed to support local execution.
-
-Local AI can provide privacy, reduced latency and independence from individual cloud providers.
-
-🛠️ Tools, Not Just Text
-
-AURA can route requests toward specialized capabilities instead of asking a language model to answer everything.
-
-Weather request      → Weather Engine
-Web research         → Search Tools
-Previous information → Memory Engine
-File analysis        → Document Tools
-Development task     → Developer Fabric
-System action        → Desktop Tools
-
-🔄 Provider Independence
-
-AURA is designed so that individual AI providers can be replaced, combined or routed dynamically.
-
-The intelligence layer should not depend on a single model.
-
-AURA Developer Fabric
-
-One of the major areas currently being developed is the AURA Developer Fabric.
-
-The objective is to provide a unified development layer capable of working with different coding agents, AI models and development tools while maintaining a shared project context.
-
-                    AURA
-                      │
-             Developer Fabric
-                      │
-       ┌──────────────┼──────────────┐
-       │              │              │
-   Coding Agent   Coding Agent   Coding Agent
-       │              │              │
-       └──────────────┼──────────────┘
-                      │
-                 Project Context
-                      │
-               Development Tools
-
-The long-term goal is to allow the most suitable development intelligence to be selected dynamically depending on the task.
-
-Tech
-
-Technologies and areas currently involved in my work:
-
-<p align="center">
-
-
-
-
-
-
-
-
-
-</p>
-
-Areas of interest
-
-Artificial Intelligence
-Local LLMs
-AI Agents
-Voice Interfaces
-Contextual Memory
-Tool Calling
-Desktop Applications
-Human-Computer Interaction
-Automation
-Developer Tools
-
-Development Philosophy
-
-I believe the next generation of AI assistants will not be defined by a single model.
-
-They will combine:
-
-models + memory + tools + context + interfaces + automation
-
-into one coherent system.
-
-AURA is my attempt to explore that direction.
-
-Project Status
-
-AURA is currently an experimental project under active development.
-
-The core runtime is not publicly distributed at this stage.
-
-Public repositories will initially focus on:
-
-Documentation
-Architecture
-Development updates
-Demonstrations
-Screenshots
-Roadmaps
-Public experiments
-
-Sensitive configuration, credentials and private runtime components will remain private.
-
-Roadmap
-
-[✓] Core architecture
-[✓] AI provider abstraction
-[✓] Voice interaction
-[✓] Tool routing
-[✓] Contextual interfaces
-[✓] Memory foundations
-
-[→] Desktop automation
-[→] Developer Fabric
-[→] Autonomous workflows
-[→] Interface refinement
-[→] Reliability & testing
-
-[ ] Closed Alpha
-[ ] Public Alpha
-[ ] Beta
-[ ] Stable Release
-
-GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=VeyrNova&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=22D3EE&text_color=C9D1D9" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeyrNova&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" />
-
-</div>
-
-Follow the Development
-
-AURA development updates, demonstrations and experiments will progressively be published through GitHub and YouTube.
-
-<div align="center">
-
-GitHub
-
-@VeyrNova
-
-YouTube
-
-@VeyrNova
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=38BDF8)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=FACC15)
+![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=F97316)
+![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=3B82F6)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F97316)
+![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-111827?style=for-the-badge&logo=windows11&logoColor=38BDF8)
 
 </div>
 
 <div align="center">
-
-VEYR × AURA
-
-Building a more natural interface between humans and artificial intelligence.
+<sub>AI orchestration • Local LLMs • Voice • Memory • Tool calling • Desktop apps • Automation • Developer agents</sub>
+</div>
 
 <br>
 
-Think. Route. Remember. Act.
+## AURA Developer Fabric
+
+The **Developer Fabric** is AURA's development orchestration layer. Its purpose is to maintain a shared project context while routing development work toward the most suitable coding model, agent or tool.
+
+```text
+                         AURA
+                           │
+                    Developer Fabric
+                           │
+               ┌───────────┼───────────┐
+               │           │           │
+          Coding Agent  Coding Agent  Coding Agent
+               │           │           │
+               └───────────┼───────────┘
+                           │
+                    Shared Context
+                           │
+                    Project + Tools
+```
 
 <br>
 
-© Veyr
+## Principles
+
+<table>
+<tr>
+<td width="50%">
+
+### Local first
+Privacy-sensitive and latency-sensitive workloads should be able to run locally whenever practical.
+
+### Provider independent
+Models and providers should remain replaceable rather than becoming hard dependencies.
+
+</td>
+<td width="50%">
+
+### Context matters
+The assistant should retain useful project context without treating every interaction as isolated.
+
+### Tools over text
+When a task needs an action, AURA should route to a capability instead of only generating an answer.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Roadmap
+
+`Foundation` **→** `Intelligence` **→** `Memory` **→** `Voice` **→** `Tools` **→** `Automation` **→** `Developer Fabric` **→** `Alpha`
+
+**Current stage:** active private development and reliability work.
+
+<br>
+
+## Public Development
+
+The public side of AURA will focus on architecture, demonstrations, screenshots, technical notes and development milestones. Private runtime components, credentials and sensitive configuration remain outside public repositories.
+
+<div align="center">
+
+<br>
+
+### Follow the build
+
+[![GitHub](https://img.shields.io/badge/GitHub-VeyrNova-181717?style=for-the-badge&logo=github)](https://github.com/VeyrNova)
+[![YouTube](https://img.shields.io/badge/YouTube-VeyrNova-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@VeyrNova)
+
+<br><br>
+
+**VEYR × AURA**
+
+<sub>Think. Route. Remember. Act.</sub>
 
 </div>

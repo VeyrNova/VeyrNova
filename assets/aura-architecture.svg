@@ -1,0 +1,61 @@
+<svg width="1400" height="540" viewBox="0 0 1400 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1400" y2="540" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07101F"/>
+    <stop offset="1" stop-color="#0B0B18"/>
+  </linearGradient>
+  <linearGradient id="accent2" x1="220" y1="80" x2="1180" y2="470" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset=".5" stop-color="#3B82F6"/>
+    <stop offset="1" stop-color="#A855F7"/>
+  </linearGradient>
+</defs>
+<rect width="1400" height="540" rx="28" fill="url(#bg2)"/>
+<text x="60" y="68" fill="#F8FAFC" font-size="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="800">AURA Architecture</text>
+<text x="60" y="102" fill="#718096" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">A modular path from user intent to the right intelligence, memory and tool.</text>
+
+<g stroke="url(#accent2)" stroke-width="3" opacity=".55">
+  <path d="M240 225H400"/>
+  <path d="M650 225H810"/>
+  <path d="M1055 225H1185"/>
+  <path d="M930 255V365"/>
+  <path d="M930 365H490"/>
+  <path d="M930 365H1180"/>
+  <path d="M490 365V435"/>
+  <path d="M710 365V435"/>
+  <path d="M930 365V435"/>
+  <path d="M1180 365V435"/>
+</g>
+
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <rect x="60" y="170" width="180" height="110" rx="22" fill="#0C1A2B" stroke="#1B5D73"/>
+  <text x="150" y="216" text-anchor="middle" fill="#E6FBFF" font-size="22" font-weight="800">USER</text>
+  <text x="150" y="248" text-anchor="middle" fill="#7CA5B4" font-size="16">voice • text • files</text>
+
+  <rect x="400" y="170" width="250" height="110" rx="22" fill="#0D172A" stroke="#2B4C75"/>
+  <text x="525" y="216" text-anchor="middle" fill="#F3F8FF" font-size="22" font-weight="800">AURA INTERFACE</text>
+  <text x="525" y="248" text-anchor="middle" fill="#8192AA" font-size="16">contextual desktop UI</text>
+
+  <rect x="810" y="160" width="245" height="130" rx="22" fill="#101329" stroke="#4A3B8B"/>
+  <text x="932" y="210" text-anchor="middle" fill="#F7F1FF" font-size="22" font-weight="800">INTELLIGENCE</text>
+  <text x="932" y="239" text-anchor="middle" fill="#F7F1FF" font-size="22" font-weight="800">ROUTER</text>
+  <text x="932" y="267" text-anchor="middle" fill="#988ABD" font-size="15">select • route • orchestrate</text>
+
+  <rect x="1185" y="170" width="160" height="110" rx="22" fill="#1A1027" stroke="#633B7C"/>
+  <text x="1265" y="216" text-anchor="middle" fill="#FAF2FF" font-size="20" font-weight="800">MEMORY</text>
+  <text x="1265" y="248" text-anchor="middle" fill="#A68AB8" font-size="15">context • recall</text>
+
+  <rect x="390" y="435" width="200" height="70" rx="18" fill="#0C1A2B" stroke="#24566D"/>
+  <text x="490" y="478" text-anchor="middle" fill="#E6FBFF" font-size="19" font-weight="800">LOCAL AI</text>
+
+  <rect x="610" y="435" width="200" height="70" rx="18" fill="#0D172A" stroke="#2B4C75"/>
+  <text x="710" y="478" text-anchor="middle" fill="#EEF5FF" font-size="19" font-weight="800">CLOUD AI</text>
+
+  <rect x="830" y="435" width="200" height="70" rx="18" fill="#11152D" stroke="#4A3B8B"/>
+  <text x="930" y="478" text-anchor="middle" fill="#F7F1FF" font-size="19" font-weight="800">TOOL LAYER</text>
+
+  <rect x="1080" y="435" width="200" height="70" rx="18" fill="#1A1027" stroke="#633B7C"/>
+  <text x="1180" y="468" text-anchor="middle" fill="#FAF2FF" font-size="19" font-weight="800">SYSTEM</text>
+  <text x="1180" y="490" text-anchor="middle" fill="#A68AB8" font-size="14">web • files • desktop</text>
+</g>
+</svg>
