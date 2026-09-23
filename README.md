@@ -81,6 +81,14 @@ R25 found no fully redundant stylesheet. The main consolidation candidate is `au
 R27 was rejected after a runtime panel regression affecting Memory, Tasks, Agenda and Modules. The exact pre-R27 CSS was restored and normal behavior returned. R21 remains the validated performance baseline; optimization now shifts to runtime lifecycle profiling rather than static cascade trimming.
 <!-- AURA_PROFILE_R27_END -->
 
+<!-- AURA_PROFILE_R30_START -->
+### Latest validated runtime optimization — R30
+
+R30 FIX1 is validated. AURA now keeps the legacy P042 orb as a fallback but avoids its full render workload while that canvas is hidden/collapsed. The visible P0436 orb and the rest of the UI remain unchanged.
+
+This marks the shift from risky static removal toward runtime lifecycle optimization.
+<!-- AURA_PROFILE_R30_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
