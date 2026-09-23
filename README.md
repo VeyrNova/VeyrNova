@@ -69,6 +69,12 @@ R23 was tested on **23 September 2026** and rejected after a UI regression affec
 **R21 remains the current validated performance checkpoint.**
 <!-- AURA_PROFILE_R23_END -->
 
+<!-- AURA_PROFILE_R25_START -->
+### R25 CSS audit
+
+R25 found no fully redundant stylesheet. The main consolidation candidate is `aura-dev-ui-screen-fit-r3-fix2.css`, where **85.56%** of declarations are reproduced exactly later in the cascade. A declaration-level audit is required before any cleanup.
+<!-- AURA_PROFILE_R25_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
