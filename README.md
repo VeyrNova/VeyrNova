@@ -61,6 +61,14 @@ On **23 September 2026**, AURA validated lazy loading for the global cartography
 Current focus: startup optimization, dead-code verification and careful consolidation of accumulated UI patch layers.
 <!-- AURA_PROFILE_R21_END -->
 
+<!-- AURA_PROFILE_R23_START -->
+### R23 runtime result
+
+R23 was tested on **23 September 2026** and rejected after a UI regression affecting side panels and the Memory, Tasks, Agenda and Modules surfaces. The local rollback restored normal behavior.
+
+**R21 remains the current validated performance checkpoint.**
+<!-- AURA_PROFILE_R23_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
