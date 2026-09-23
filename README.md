@@ -38,6 +38,21 @@ AURA is not designed as another chat window. The goal is a desktop assistant tha
 
 <br>
 
+
+<!-- AURA_PROFILE_STATUS_START -->
+## Current AURA checkpoint
+
+**23 September 2026** — AURA is currently in a stabilization and performance phase.
+
+- Sanitized validation branch: `validation/aura-current-pre-performance-safe-20260923`
+- Validated SHA: `61a4d4d5302846942921d05e457ab2a08590e365`
+- Active Windows Chromium surface: `v0.7.2.2-rc4.2`
+- Immediate work: dead/redundant-code audit → UI patch consolidation → startup/performance optimization
+- Public-repository policy: no local databases, browser profiles, secrets, logs, private media or temporary runtime state
+
+The next technical milestone is to reduce startup cost without removing features or changing validated behavior.
+<!-- AURA_PROFILE_STATUS_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
