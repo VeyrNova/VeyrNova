@@ -75,6 +75,12 @@ R23 was tested on **23 September 2026** and rejected after a UI regression affec
 R25 found no fully redundant stylesheet. The main consolidation candidate is `aura-dev-ui-screen-fit-r3-fix2.css`, where **85.56%** of declarations are reproduced exactly later in the cascade. A declaration-level audit is required before any cleanup.
 <!-- AURA_PROFILE_R25_END -->
 
+<!-- AURA_PROFILE_R27_START -->
+### R27 runtime result
+
+R27 was rejected after a runtime panel regression affecting Memory, Tasks, Agenda and Modules. The exact pre-R27 CSS was restored and normal behavior returned. R21 remains the validated performance baseline; optimization now shifts to runtime lifecycle profiling rather than static cascade trimming.
+<!-- AURA_PROFILE_R27_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
