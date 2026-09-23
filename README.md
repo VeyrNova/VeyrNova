@@ -53,6 +53,14 @@ AURA is not designed as another chat window. The goal is a desktop assistant tha
 The next technical milestone is to reduce startup cost without removing features or changing validated behavior.
 <!-- AURA_PROFILE_STATUS_END -->
 
+<!-- AURA_PROFILE_R21_START -->
+### Latest validated milestone — R21
+
+On **23 September 2026**, AURA validated lazy loading for the global cartography dataset. The change removes **7.32 MB** from the initial blocking JavaScript path while preserving the Weather map and loading global cartography only when needed.
+
+Current focus: startup optimization, dead-code verification and careful consolidation of accumulated UI patch layers.
+<!-- AURA_PROFILE_R21_END -->
+
 ## Current Focus
 
 | Area | Status | Direction |
