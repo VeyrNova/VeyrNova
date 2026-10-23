@@ -2,207 +2,91 @@
 
 <img src="./assets/veyr-aura-hero.svg" width="100%" alt="Veyr — Creator of AURA" />
 
-<br>
+# Veyr — Building AURA
 
-[![AURA](https://img.shields.io/badge/AURA-Active_Development-7C3AED?style=flat-square)](#aura)
-[![Local First](https://img.shields.io/badge/Architecture-Local--First-0891B2?style=flat-square)](#aura)
-[![GitHub](https://img.shields.io/badge/GitHub-@VeyrNova-181717?style=flat-square&logo=github)](https://github.com/VeyrNova)
+**Native Windows AI experiences · Local-first architecture · Human-centered interaction**
+
+[![AURA](https://img.shields.io/badge/AURA-Public%20Development%20Preview-7C3AED?style=flat-square)](https://github.com/VeyrNova/AURA)
+[![Windows](https://img.shields.io/badge/Windows-Native-0891B2?style=flat-square)](https://github.com/VeyrNova/AURA)
+[![Feedback](https://img.shields.io/badge/Feedback-Issues-2563EB?style=flat-square)](https://github.com/VeyrNova/AURA/issues)
 [![YouTube](https://img.shields.io/badge/YouTube-@VeyrNova-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@VeyrNova)
 
 </div>
 
-<br>
+## About / À propos
 
-## About
+I'm **Veyr**, an independent software creator developing **[AURA — Neural Operating Interface](https://github.com/VeyrNova/AURA)**, a local-first AI desktop assistant for Windows.
 
-I'm **Veyr**, an independent creator building **AURA** — a local-first AI desktop environment focused on natural interaction, contextual memory, intelligent tool routing and modular AI orchestration.
-
-AURA is not designed as another chat window. The goal is a desktop assistant that can understand intent, keep useful context, select the right intelligence or tool, and act through one coherent interface.
-
-<br>
-
-<a id="aura"></a>
-
-## AURA
-
-<table>
-<tr>
-<td width="25%" align="center"><b>🧠 Intelligence</b><br><sub>Local + cloud model orchestration</sub></td>
-<td width="25%" align="center"><b>🎙 Voice</b><br><sub>Natural speech input and output</sub></td>
-<td width="25%" align="center"><b>💾 Memory</b><br><sub>Persistent contextual recall</sub></td>
-<td width="25%" align="center"><b>🛠 Tools</b><br><sub>Files, web, system and automation</sub></td>
-</tr>
-</table>
+Je développe **AURA**, un assistant IA natif pour Windows qui réunit conversation, mémoire, vision, voix et outils dans une interface cohérente, avec une attention particulière portée au contrôle utilisateur.
 
 > **One interface. Multiple intelligences. One assistant.**
 
-<br>
+## AURA — October 2026 / Octobre 2026
 
+**Development preview — not yet a public installer release.**
 
-<!-- AURA_PROFILE_STATUS_START -->
-## Current AURA checkpoint
+The project has evolved from earlier experimental UI work toward a **native PySide6 / Qt Quick / QML Windows application** with a dark Liquid Glass design.
 
-**23 September 2026** — AURA is currently in a stabilization and performance phase.
+| Area / Domaine | Current state / État |
+|---|---|
+| Native Windows UI | Actively developed; manually tested on Windows 11 |
+| Conversation & providers | Configurable provider routing; availability depends on user setup |
+| Memory & Vision | Native services and tested image understanding workflow |
+| Voice / Voix | Push-to-Talk input; French output tested with an **external** local Piper runtime |
+| Windows packaging | Internal install, uninstall and reinstall cycle manually validated |
+| Public downloadable beta | **Not released yet**; standalone acceptance and dependency review ongoing |
+| FR / EN | Interface, installer and selectable voice languages on the roadmap |
 
-- Sanitized validation branch: `validation/aura-current-pre-performance-safe-20260923`
-- Validated SHA: `61a4d4d5302846942921d05e457ab2a08590e365`
-- Active Windows Chromium surface: `v0.7.2.2-rc4.2`
-- Immediate work: dead/redundant-code audit → UI patch consolidation → startup/performance optimization
-- Public-repository policy: no local databases, browser profiles, secrets, logs, private media or temporary runtime state
+The latest **local** Nuitka build is an internal test artifact, not a published GitHub Release. A future public prerelease will be explicitly labeled, with known limitations and file checksums.
 
-The next technical milestone is to reduce startup cost without removing features or changing validated behavior.
-<!-- AURA_PROFILE_STATUS_END -->
+**Le code public peut être en décalage avec les versions locales en cours de validation.** Une bêta installable sera annoncée uniquement lorsqu'elle aura passé les contrôles nécessaires.
 
-<!-- AURA_PROFILE_R21_START -->
-### Latest validated milestone — R21
+### Explore / Découvrir
 
-On **23 September 2026**, AURA validated lazy loading for the global cartography dataset. The change removes **7.32 MB** from the initial blocking JavaScript path while preserving the Weather map and loading global cartography only when needed.
+- **[AURA repository](https://github.com/VeyrNova/AURA)** — overview, development source and roadmap.
+- **[Report a bug / Signaler un problème](https://github.com/VeyrNova/AURA/issues/new)** — feedback from Windows testers.
+- **[GitHub Issues](https://github.com/VeyrNova/AURA/issues)** — proposals, questions and suggestions.
+- **[Star AURA ⭐](https://github.com/VeyrNova/AURA)** — follow the project and improve its visibility.
 
-Current focus: startup optimization, dead-code verification and careful consolidation of accumulated UI patch layers.
-<!-- AURA_PROFILE_R21_END -->
+## Core ideas / Principes
 
-<!-- AURA_PROFILE_R23_START -->
-### R23 runtime result
+| Local first | Configurable intelligence |
+|---|---|
+| User-controlled local data and optional offline capabilities | External providers and local models are user-selected, not hard-coded requirements |
 
-R23 was tested on **23 September 2026** and rejected after a UI regression affecting side panels and the Memory, Tasks, Agenda and Modules surfaces. The local rollback restored normal behavior.
+| Native experience | Reliability before release |
+|---|---|
+| Qt/QML desktop interface and integrated services | Measured tests, user-visible feedback, clean installation and removal |
 
-**R21 remains the current validated performance checkpoint.**
-<!-- AURA_PROFILE_R23_END -->
+## Architecture / Architecture
 
-<!-- AURA_PROFILE_R25_START -->
-### R25 CSS audit
+<img src="./assets/aura-architecture.svg" width="100%" alt="AURA architecture overview" />
 
-R25 found no fully redundant stylesheet. The main consolidation candidate is `aura-dev-ui-screen-fit-r3-fix2.css`, where **85.56%** of declarations are reproduced exactly later in the cascade. A declaration-level audit is required before any cleanup.
-<!-- AURA_PROFILE_R25_END -->
+The software combines **Python**, **PySide6 / Qt**, native Windows integration and provider adapters. The user-facing application aims to make complex workflows accessible without hiding whether a capability is local, unavailable or requires an external provider.
 
-<!-- AURA_PROFILE_R27_START -->
-### R27 runtime result
+## What I'm working on / Prochaines étapes
 
-R27 was rejected after a runtime panel regression affecting Memory, Tasks, Agenda and Modules. The exact pre-R27 CSS was restored and normal behavior returned. R21 remains the validated performance baseline; optimization now shifts to runtime lifecycle profiling rather than static cascade trimming.
-<!-- AURA_PROFILE_R27_END -->
+- French/English support across setup, interface, messages and voice selection.
+- Official AURA app icon and cohesive Windows installer presentation.
+- Independent Windows standalone tests with and without external speech components.
+- Better onboarding, clear documentation and responsible public prereleases.
+- User feedback loops through GitHub Issues and demonstrations.
 
-<!-- AURA_PROFILE_R30_START -->
-### Latest validated runtime optimization — R30
+## Previous research / Travaux précédents
 
-R30 FIX1 is validated. AURA now keeps the legacy P042 orb as a fallback but avoids its full render workload while that canvas is hidden/collapsed. The visible P0436 orb and the rest of the UI remain unchanged.
+The project has a substantial earlier history of browser/UI experiments, contextual memory, voice orchestration, performance research and developer tooling. Historical commits and technical notes remain available in the repository. The **current development focus is the native Windows app**, not the previous September 2026 Chromium runtime checkpoints.
 
-This marks the shift from risky static removal toward runtime lifecycle optimization.
-<!-- AURA_PROFILE_R30_END -->
+## Source and licensing / Code et licence
 
-## Current Focus
+The [AURA repository](https://github.com/VeyrNova/AURA) is publicly visible but is presently under an **All Rights Reserved proprietary license**. It is **not open source**, and using, copying or redistributing the code requires the applicable permissions. Feedback through Issues is welcome; any contribution must respect [AURA's contribution policy](https://github.com/VeyrNova/AURA/blob/main/CONTRIBUTING.md).
 
-| Area | Status | Direction |
-|---|:---:|---|
-| AI orchestration | ● Active | Model and provider routing |
-| Voice interaction | ● Active | Speech input, output and live routing |
-| Contextual memory | ● Active | Relevant long-term project context |
-| Adaptive interface | ● Active | Task-specific UI and reactive states |
-| Desktop automation | ◐ Building | Reliable real-world actions |
-| Developer Fabric | ◐ Building | Multi-agent development orchestration |
-| Public Alpha | ○ Planned | Controlled external testing |
-
-<br>
-
-## Architecture
-
-<img src="./assets/aura-architecture.svg" width="100%" alt="AURA architecture" />
-
-<br>
-
-## Tech
+No personal credentials, local databases, conversation history, private media, user profiles or private runtime data should be published.
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=38BDF8)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=FACC15)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=F97316)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=3B82F6)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F97316)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-111827?style=for-the-badge&logo=windows11&logoColor=38BDF8)
+**VEYR × AURA**  
+*Think. Route. Remember. Act.*
 
-</div>
-
-<div align="center">
-<sub>AI orchestration • Local LLMs • Voice • Memory • Tool calling • Desktop apps • Automation • Developer agents</sub>
-</div>
-
-<br>
-
-## AURA Developer Fabric
-
-The **Developer Fabric** is AURA's development orchestration layer. Its purpose is to maintain a shared project context while routing development work toward the most suitable coding model, agent or tool.
-
-```text
-                         AURA
-                           │
-                    Developer Fabric
-                           │
-               ┌───────────┼───────────┐
-               │           │           │
-          Coding Agent  Coding Agent  Coding Agent
-               │           │           │
-               └───────────┼───────────┘
-                           │
-                    Shared Context
-                           │
-                    Project + Tools
-```
-
-<br>
-
-## Principles
-
-<table>
-<tr>
-<td width="50%">
-
-### Local first
-Privacy-sensitive and latency-sensitive workloads should be able to run locally whenever practical.
-
-### Provider independent
-Models and providers should remain replaceable rather than becoming hard dependencies.
-
-</td>
-<td width="50%">
-
-### Context matters
-The assistant should retain useful project context without treating every interaction as isolated.
-
-### Tools over text
-When a task needs an action, AURA should route to a capability instead of only generating an answer.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## Roadmap
-
-`Foundation` **→** `Intelligence` **→** `Memory` **→** `Voice` **→** `Tools` **→** `Automation` **→** `Developer Fabric` **→** `Alpha`
-
-**Current stage:** active private development and reliability work.
-
-<br>
-
-## Public Development
-
-The public side of AURA will focus on architecture, demonstrations, screenshots, technical notes and development milestones. Private runtime components, credentials and sensitive configuration remain outside public repositories.
-
-<div align="center">
-
-<br>
-
-### Follow the build
-
-[![GitHub](https://img.shields.io/badge/GitHub-VeyrNova-181717?style=for-the-badge&logo=github)](https://github.com/VeyrNova)
-[![YouTube](https://img.shields.io/badge/YouTube-VeyrNova-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@VeyrNova)
-
-<br><br>
-
-**VEYR × AURA**
-
-<sub>Think. Route. Remember. Act.</sub>
+[GitHub](https://github.com/VeyrNova) · [AURA](https://github.com/VeyrNova/AURA) · [YouTube](https://youtube.com/@VeyrNova)
 
 </div>
